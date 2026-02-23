@@ -3,14 +3,12 @@ A 3D rotating cube rendered in the windows console using ASCII characters and AN
 # Features
 Manual 3D rotation (Euler angles A, B, C)
 
-Perspective projection
-
-Z-buffer depth testing
-
-Frame buffering to reduce flicker
-
-ANSI colored faces
-
-Automatic console size detection (Win32 API)
-
+Perspective projection 
+Z-buffer depth testing 
+Frame buffering to reduce flicker 
+ANSI colored faces 
+Automatic console size detection (Win32 API) 
 ![Rotating ASCII cube](demo.gif)
+
+Compile with MSVC or g++ (Windows)
+g++ main.cpp -o cube.exe -std=c++17
