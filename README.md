@@ -8,6 +8,7 @@ Z-buffer depth testing
 Frame buffering to reduce flicker  
 ANSI colored faces  
 Automatic console size detection (Win32 API)  
+
 ![Rotating ASCII cube](demo.gif)  
 
 Compile with MSVC or g++ (Windows)  
